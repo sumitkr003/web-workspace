@@ -1,0 +1,32 @@
+[debug] [2018-03-27T19:59:51.380Z] ----------------------------------------------------------------------
+[debug] [2018-03-27T19:59:51.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sumit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-27T19:59:51.387Z] CLI Version:   3.17.7
+[debug] [2018-03-27T19:59:51.387Z] Platform:      win32
+[debug] [2018-03-27T19:59:51.387Z] Node Version:  v8.9.4
+[debug] [2018-03-27T19:59:51.387Z] Time:          Wed Mar 28 2018 01:29:51 GMT+0530 (India Standard Time)
+[debug] [2018-03-27T19:59:51.387Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-27T19:59:51.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-27T19:59:51.399Z] > authorizing via signed-in user
+[debug] [2018-03-27T19:59:51.400Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-2e6f0  
+  
+ Wed Mar 28 2018 01:29:51 GMT+0530 (India Standard Time)
+[debug] [2018-03-27T19:59:53.574Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-27T19:59:53.574Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-2e6f0/tokens  
+  
+ Wed Mar 28 2018 01:29:53 GMT+0530 (India Standard Time)
+[debug] [2018-03-27T19:59:55.466Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-27T19:59:55.471Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-2e6f0  
+  
+ Wed Mar 28 2018 01:29:55 GMT+0530 (India Standard Time)
+[debug] [2018-03-27T19:59:57.723Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\sumit\WebstormProjects\LearningFirebase\friendlychat-web\web-start'...
+[info] 
+[debug] [2018-03-27T19:59:57.728Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/437111930557/clients/_:getWebAppConfig  
+  
+ Wed Mar 28 2018 01:29:57 GMT+0530 (India Standard Time)
+[debug] [2018-03-27T19:59:58.949Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+

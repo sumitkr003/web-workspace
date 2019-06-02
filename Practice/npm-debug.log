@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'passport',
+1 verbose cli   'passport-local',
+1 verbose cli   'passport-local-mongoose',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData passport
+8 silly fetchPackageMetaData passport-local
+9 silly fetchPackageMetaData passport-local-mongoose
+10 silly fetchNamedPackageData passport
+11 silly mapToRegistry name passport
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'passport',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'passport',
+14 silly mapToRegistry   name: 'passport',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/passport
+16 silly fetchNamedPackageData passport-local
+17 silly mapToRegistry name passport-local
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'passport-local',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'passport-local',
+20 silly mapToRegistry   name: 'passport-local',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+22 silly fetchNamedPackageData passport-local-mongoose
+23 silly mapToRegistry name passport-local-mongoose
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'passport-local-mongoose',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'passport-local-mongoose',
+26 silly mapToRegistry   name: 'passport-local-mongoose',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/passport-local-mongoose
+28 verbose request uri https://registry.npmjs.org/passport-local
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 11:03:44 PM
+31 verbose request id 6f325ef21cd8a6e9
+32 verbose etag W/"59fcc99e-38df"
+33 verbose lastModified Fri, 03 Nov 2017 19:55:10 GMT
+34 http request GET https://registry.npmjs.org/passport-local
+35 verbose request uri https://registry.npmjs.org/passport
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 11:03:44 PM
+38 verbose etag W/"5a057941-b9ee"
+39 verbose lastModified Fri, 10 Nov 2017 10:02:41 GMT
+40 http request GET https://registry.npmjs.org/passport
+41 verbose request uri https://registry.npmjs.org/passport-local-mongoose
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 11:03:44 PM
+44 verbose etag W/"59fcc9a5-b8b7"
+45 verbose lastModified Fri, 03 Nov 2017 19:55:17 GMT
+46 http request GET https://registry.npmjs.org/passport-local-mongoose
+47 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+48 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+49 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+50 info attempt registry request try #2 at 11:03:54 PM
+51 verbose etag W/"59fcc99e-38df"
+52 verbose lastModified Fri, 03 Nov 2017 19:55:10 GMT
+53 http request GET https://registry.npmjs.org/passport-local
+54 info attempt registry request try #2 at 11:03:54 PM
+55 verbose etag W/"5a057941-b9ee"
+56 verbose lastModified Fri, 10 Nov 2017 10:02:41 GMT
+57 http request GET https://registry.npmjs.org/passport
+58 info attempt registry request try #2 at 11:03:54 PM
+59 verbose etag W/"59fcc9a5-b8b7"
+60 verbose lastModified Fri, 03 Nov 2017 19:55:17 GMT
+61 http request GET https://registry.npmjs.org/passport-local-mongoose
+62 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+63 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+64 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+65 verbose stack Error: kill ENOSYS
+65 verbose stack     at Object.exports._errnoException (util.js:1020:11)
+65 verbose stack     at process.kill (internal/process.js:191:18)
+65 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+65 verbose stack     at emitNone (events.js:91:20)
+65 verbose stack     at process.emit (events.js:185:7)
+65 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+65 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+65 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+66 verbose cwd C:\Users\sumit\WebstormProjects\Practice
+67 error Windows_NT 10.0.14393
+68 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "passport" "passport-local" "passport-local-mongoose" "--save"
+69 error node v6.11.5
+70 error npm  v3.10.10
+71 error code ENOSYS
+72 error errno ENOSYS
+73 error syscall kill
+74 error kill ENOSYS
+75 error If you need help, you may report this error at:
+75 error     <https://github.com/npm/npm/issues>
+76 verbose exit [ 1, true ]

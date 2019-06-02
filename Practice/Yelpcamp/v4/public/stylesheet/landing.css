@@ -1,0 +1,25 @@
+body{
+    background-color: #000;
+}
+
+.container{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+    color: #fff;
+}
+
+li{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images5.alphacoders.com/555/thumb-1920-555700.jpg);
+}
+
