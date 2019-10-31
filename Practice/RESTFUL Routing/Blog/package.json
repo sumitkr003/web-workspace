@@ -9,7 +9,7 @@
     "express": "^4.16.2",
     "express-sanitizer": "^1.0.3",
     "method-override": "^2.3.10",
-    "mongoose": "^4.13.0"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {},
   "scripts": {
